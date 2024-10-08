@@ -1,0 +1,22 @@
+{
+    "id": "renku-env",
+    "version": "0.0.1",
+    "name": "renku-env",
+    "description": "A Renku compatible environment template",
+    "options": {
+      "ide": {
+          "type": "string",
+          "enum": [
+              "rstudio-server",
+              "jupyterlab",
+              "code-server"
+          ],
+          "default": "code-server",
+          "description": "Select your favorite IDE"
+      }
+    },
+    "platforms": [
+      "Python",
+      "R"
+    ]
+}
