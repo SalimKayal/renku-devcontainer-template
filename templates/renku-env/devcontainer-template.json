@@ -1,6 +1,6 @@
 {
     "id": "renku-env",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "name": "renku-env",
     "description": "A Renku compatible environment template",
     "options": {
