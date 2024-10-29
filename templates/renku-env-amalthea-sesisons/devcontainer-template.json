@@ -1,0 +1,32 @@
+{
+    "id": "renku-env-amalthea-sessions",
+    "version": "0.0.1",
+    "name": "renku-env-amalthea-sessions",
+    "description": "A Renku compatible environment template",
+    "options": {
+      "language": {
+          "type": "string",
+          "enum": [
+              "r",
+              "python",
+              "universal"
+          ],
+          "default": "code-server",
+          "description": "Select your favorite IDE"
+      }
+      "ide": {
+          "type": "string",
+          "enum": [
+              "rstudio-server",
+              "jupyterlab",
+              "code-server"
+          ],
+          "default": "code-server",
+          "description": "Select your favorite IDE"
+      }
+    },
+    "platforms": [
+      "Python",
+      "R"
+    ]
+}
