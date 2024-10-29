@@ -13,7 +13,7 @@
           ],
           "default": "code-server",
           "description": "Select your favorite IDE"
-      }
+      },
       "ide": {
           "type": "string",
           "enum": [
